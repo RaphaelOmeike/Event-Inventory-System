@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\actionshistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\actionshistoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\attendeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\attendeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\eventattendeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\eventattendeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\eventreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\eventreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\eventstatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\eventstatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\fileondatabasemodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\fileondatabasemodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\fileonfilesystemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\fileonfilesystemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305141736_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20250305141736_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305135301_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20250305135301_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305134039_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20250305134039_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048FEE25-4EAA-49E1-AE49-785C77B0C07D}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\domain\\entities\\eventreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048FEE25-4EAA-49E1-AE49-785C77B0C07D}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\eventreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{048FEE25-4EAA-49E1-AE49-785C77B0C07D}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\domain\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048FEE25-4EAA-49E1-AE49-785C77B0C07D}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendeeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\AttendeeConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\AttendeeConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\AttendeeConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\AttendeeConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:42.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActionsHistoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\ActionsHistoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\ActionsHistoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\ActionsHistoryConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\ActionsHistoryConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:40.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventAttendeeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventAttendeeConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\EventAttendeeConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventAttendeeConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\EventAttendeeConfiguration.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:44.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\EventConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\EventConfiguration.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:14:43.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventReportConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventReportConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\EventReportConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventReportConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\EventReportConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:14:42.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventStatusConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventStatusConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\EventStatusConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\EventStatusConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\EventStatusConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:49.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileOnDatabaseModelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\FileOnDatabaseModelConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\FileOnDatabaseModelConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\FileOnDatabaseModelConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\FileOnDatabaseModelConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:51.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileOnFIleSystemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\FileOnFIleSystemConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\FileOnFIleSystemConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\FileOnFIleSystemConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\FileOnFIleSystemConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:53.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:55.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:39:58.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250305141736_initial.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305141736_initial.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250305141736_initial.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305141736_initial.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250305141736_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T14:17:36.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T13:48:50.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250305135301_initial.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305135301_initial.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250305135301_initial.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305135301_initial.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250305135301_initial.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAQwN8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:53:01.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:52:37.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250305134039_initial.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305134039_initial.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250305134039_initial.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Migrations\\20250305134039_initial.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250305134039_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:40:39.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Persistence\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:15:47.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventReport.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Domain\\Entities\\EventReport.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\EventReport.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Domain\\Entities\\EventReport.cs",
+              "RelativeToolTip": "Domain\\Entities\\EventReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:14:14.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Domain\\Entities\\Event.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Event.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Domain\\Entities\\Event.cs",
+              "RelativeToolTip": "Domain\\Entities\\Event.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:14:12.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
