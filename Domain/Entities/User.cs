@@ -7,7 +7,7 @@ namespace Domain.Entities
         public string Email { get; set; } = null!;
         public string UserName { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
-        public string PasswordSalt { get; set; } = null!;
+        public string Salt { get; set; } = null!;
         public int? ProfilePictureId { get; set; }
         public FileOnFileSystemModel? ProfilePicture { get; set; }
         public bool IsEmailVerified { get; set; }

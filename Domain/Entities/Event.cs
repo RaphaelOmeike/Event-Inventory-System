@@ -9,6 +9,8 @@ namespace Domain.Entities
         public string? Description { get; set; }
         public DateTime Begin { get; set; }
         public DateTime End { get; set; }
+        public DateTime RegistrationBegin { get; set; }
+        public DateTime RegistrationEnd { get; set; }
         public int MaxAttendeeNo { get; set; }
         public int PictureId { get; set; }
         public FileOnFileSystemModel Picture { get; set; } = null!;
