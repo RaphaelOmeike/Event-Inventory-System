@@ -11,6 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\Users - Copy - Copy\Commands\Create\" />
+    <Folder Include="Features\Users - Copy - Copy\Commands\Delete\" />
+    <Folder Include="Features\Users - Copy - Copy\Commands\Update\" />
+    <Folder Include="Features\Users - Copy - Copy\Queries\List\" />
+    <Folder Include="Features\Events\Commands\Delete\" />
+    <Folder Include="Features\Events\Commands\Update\" />
+    <Folder Include="Features\Events\Queries\List\" />
     <Folder Include="Features\Users\Commands\Create\" />
     <Folder Include="Features\Users\Commands\Delete\" />
     <Folder Include="Features\Users\Commands\Update\" />

@@ -1,7 +1,8 @@
 ﻿using Application.Interfaces.Repositories;
+using Infrastructure.Implementations.Repositories;
 using Infrastructure.Persistence.Contexts;
 
-namespace Infrastructure.UnitOfWork
+namespace Infrastructure
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -10,7 +11,12 @@ namespace Infrastructure.UnitOfWork
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
-
+            ActionsHistoryRepository = new ActionsHistoryRepository(_context);
+            AttendeeRepository = new AttendeeRepository(_context);
+            EventReportRepository = new EventReportRepository(_context);
+            EventRepository = new EventRepository(_context);
+            RoleRepository = new RoleRepository(_context);
+            UserRepository = new UserRepository(_context);
         }
 
         public IActionsHistoryRepository ActionsHistoryRepository { get; private set; }

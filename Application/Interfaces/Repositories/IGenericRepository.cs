@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using Infrastructure.Specifications;
+using System.Linq.Expressions;
 
 namespace Application.Interfaces.Repositories
 {
@@ -8,7 +9,8 @@ namespace Application.Interfaces.Repositories
         bool Exists(Func<T, bool> predicate);
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<IReadOnlyList<T>> GetAllAsync(Expression<Func<T, bool>> predicate);
-        //Task<IReadOnlyList<T>> GetPagedReponseAsync(int pageNumber, int pageSize);
+        IReadOnlyList<T> FindWithSpecificationPattern(ISpecification<T> specification = null);
+        Task<IReadOnlyList<T>> GetPagedReponseAsync(int pageNumber, int pageSize);
         void Create(T entity);
         void Update(T entity);//study pagination project
     }

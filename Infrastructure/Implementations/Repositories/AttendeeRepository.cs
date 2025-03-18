@@ -2,7 +2,7 @@
 using Domain.Entities;
 using Infrastructure.Persistence.Contexts;
 
-namespace Infrastructure.Repositories
+namespace Infrastructure.Implementations.Repositories
 {
     public class AttendeeRepository : GenericRepository<Attendee>, IAttendeeRepository
     {

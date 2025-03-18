@@ -1,9 +1,10 @@
 ﻿using Application.Interfaces.Repositories;
 using Infrastructure.Persistence.Contexts;
+using Infrastructure.Specifications;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace Infrastructure.Repositories
+namespace Infrastructure.Implementations.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
@@ -14,14 +15,9 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public void Add(T entity)
-        {
-            _context.Set<T>().Add(entity);
-        }
-
         public bool Exists(Func<T, bool> predicate)
         {
-            throw new NotImplementedException();
+            return _context.Set<T>().Any(predicate);
         }
 
         public async Task<IReadOnlyList<T>> GetAllAsync()
@@ -33,10 +29,14 @@ namespace Infrastructure.Repositories
         {
             return await _context.Set<T>().Where(predicate).ToListAsync();
         }
-        
+
         public async Task<T?> GetAsync(Expression<Func<T, bool>> predicate)
         {
             return await _context.Set<T>().FirstOrDefaultAsync(predicate);
+        }
+        public IReadOnlyList<T> FindWithSpecificationPattern(ISpecification<T> specification = null)
+        {
+            return SpecificationEvaluator<T>.GetQuery(_context.Set<T>().AsQueryable(), specification).ToList();
         }
         public void Create(T entity)
         {
@@ -46,6 +46,16 @@ namespace Infrastructure.Repositories
         public void Update(T entity)
         {
             _context.Update(entity);
+        }
+
+        public async Task<IReadOnlyList<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
+        {
+            return await _context
+                .Set<T>()
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .AsNoTracking()
+                .ToListAsync();
         }
     }
 }
