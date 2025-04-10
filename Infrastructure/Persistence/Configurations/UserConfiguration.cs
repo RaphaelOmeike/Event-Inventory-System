@@ -14,7 +14,7 @@ namespace Infrastructure.Persistence.Configurations
             builder.Property(x => x.Email).IsRequired().HasMaxLength(50);
             builder.Property(x => x.UserName).IsRequired().HasMaxLength(20);
             builder.Property(x => x.PasswordHash).IsRequired();
-            builder.Property(x => x.PasswordSalt).IsRequired();
+            builder.Property(x => x.Salt).IsRequired();
 
             builder.Property(x => x.IsEmailVerified).IsRequired();
             builder.Property(x => x.IsApproved).IsRequired();

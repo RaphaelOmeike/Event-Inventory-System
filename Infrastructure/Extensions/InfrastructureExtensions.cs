@@ -13,6 +13,7 @@ namespace Infrastructure.Extensions
                 .AddScoped<IEventReportRepository, EventReportRepository>()
                 .AddScoped<IEventRepository, EventRepository>()
                 .AddScoped<IEventStatusRepository, EventStatusRepository>()
+                .AddScoped<IFileRepository, FileRepository>()
                 .AddScoped<IRoleRepository, RoleRepository>()
                 .AddScoped<IUserRepository, UserRepository>()
                 .AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>))

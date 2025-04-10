@@ -5,7 +5,9 @@ C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.G
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.sourcelink.json
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.dll
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.pdb
 C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\ref\Domain.dll
+C:\Users\USER\source\repos\EventInventorySystem\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache

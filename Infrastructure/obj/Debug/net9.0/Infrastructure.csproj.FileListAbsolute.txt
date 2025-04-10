@@ -3,6 +3,7 @@ C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\obj\Debug\net9.0\
 C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
 C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
 C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
 C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
 C:\Users\USER\source\repos\EventInventorySystem\Infrastructure\bin\Debug\net9.0\Infrastructure.dll

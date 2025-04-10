@@ -1,4 +1,4 @@
-﻿using Application.FIlters;
+﻿using Application.Filters;
 using Application.Interfaces.Services;
 using Application.Wrappers;
 

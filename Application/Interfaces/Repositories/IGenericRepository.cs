@@ -10,8 +10,8 @@ namespace Application.Interfaces.Repositories
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<IReadOnlyList<T>> GetAllAsync(Expression<Func<T, bool>> predicate);
         IReadOnlyList<T> FindWithSpecificationPattern(ISpecification<T> specification = null);
-        Task<IReadOnlyList<T>> GetPagedReponseAsync(int pageNumber, int pageSize);
-        void Create(T entity);
+        Task<IReadOnlyList<T>> GetPagedReponseAsync(Expression<Func<T, bool>> predicate, int pageNumber, int pageSize);
+        Task CreateAsync(T entity);
         void Update(T entity);//study pagination project
     }
 }

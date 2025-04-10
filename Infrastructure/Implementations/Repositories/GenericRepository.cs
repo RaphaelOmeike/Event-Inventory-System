@@ -38,20 +38,21 @@ namespace Infrastructure.Implementations.Repositories
         {
             return SpecificationEvaluator<T>.GetQuery(_context.Set<T>().AsQueryable(), specification).ToList();
         }
-        public void Create(T entity)
+        public async Task CreateAsync(T entity)
         {
-            _context.Set<T>().Add(entity);
+            await _context.Set<T>().AddAsync(entity);
         }
 
         public void Update(T entity)
         {
             _context.Update(entity);
         }
-
-        public async Task<IReadOnlyList<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
+        //no delete
+        public async Task<IReadOnlyList<T>> GetPagedReponseAsync(Expression<Func<T, bool>> predicate, int pageNumber, int pageSize)
         {
             return await _context
                 .Set<T>()
+                .Where(predicate)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()

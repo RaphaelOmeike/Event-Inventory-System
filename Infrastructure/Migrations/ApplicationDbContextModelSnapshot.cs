@@ -51,9 +51,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTimeOffset>("CreatedAt")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -78,9 +78,9 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsValid")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastModified")
+                    b.Property<DateTimeOffset>("LastModified")
                         .ValueGeneratedOnUpdate()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -111,26 +111,27 @@ namespace Infrastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("AccessCode")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("Begin")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTimeOffset>("Begin")
+                        .HasColumnType("datetimeoffset");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTimeOffset>("CreatedAt")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("DefaultStatusId")
+                    b.Property<Guid?>("DefaultStatusId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("End")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTimeOffset>("End")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("EventCode")
                         .HasColumnType("nvarchar(max)");
@@ -144,11 +145,11 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsEventOver")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastModified")
+                    b.Property<DateTimeOffset>("LastModified")
                         .ValueGeneratedOnUpdate()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("MaxAttendeeNo")
+                    b.Property<int?>("MaxAttendeeNo")
                         .HasColumnType("int");
 
                     b.Property<TimeSpan>("MinimumWaitingTime")
@@ -162,16 +163,26 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int>("NoOfAttendees")
+                        .HasColumnType("int");
+
                     b.Property<int>("PictureId")
                         .HasColumnType("int");
+
+                    b.Property<DateTimeOffset>("RegistrationBegin")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("RegistrationCode")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTimeOffset>("RegistrationEnd")
+                        .HasColumnType("datetimeoffset");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DefaultStatusId")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("[DefaultStatusId] IS NOT NULL");
 
                     b.HasIndex("Name")
                         .IsUnique();
@@ -250,9 +261,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTimeOffset>("CreatedAt")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -266,9 +277,9 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastModified")
+                    b.Property<DateTimeOffset>("LastModified")
                         .ValueGeneratedOnUpdate()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(max)");
@@ -384,9 +395,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTimeOffset>("CreatedAt")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -397,9 +408,9 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastModified")
+                    b.Property<DateTimeOffset>("LastModified")
                         .ValueGeneratedOnUpdate()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(max)");
@@ -423,9 +434,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTimeOffset>("CreatedAt")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -434,6 +445,9 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<Guid>("EventId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<bool>("IsApproved")
                         .HasColumnType("bit");
@@ -444,9 +458,9 @@ namespace Infrastructure.Migrations
                     b.Property<bool>("IsEmailVerified")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime>("LastModified")
+                    b.Property<DateTimeOffset>("LastModified")
                         .ValueGeneratedOnUpdate()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(max)");
@@ -455,15 +469,15 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PasswordSalt")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int?>("ProfilePictureId")
                         .HasColumnType("int");
 
                     b.Property<Guid>("RoleId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Salt")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserName")
                         .IsRequired()
@@ -474,6 +488,8 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("Email")
                         .IsUnique();
+
+                    b.HasIndex("EventId");
 
                     b.HasIndex("ProfilePictureId")
                         .IsUnique()
@@ -510,9 +526,7 @@ namespace Infrastructure.Migrations
                 {
                     b.HasOne("Domain.Entities.EventStatus", "DefaultEventStatus")
                         .WithOne()
-                        .HasForeignKey("Domain.Entities.Event", "DefaultStatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Domain.Entities.Event", "DefaultStatusId");
 
                     b.HasOne("Domain.Entities.FileOnFileSystemModel", "Picture")
                         .WithOne()
@@ -582,6 +596,12 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.User", b =>
                 {
+                    b.HasOne("Domain.Entities.Event", null)
+                        .WithMany("EventRegistrars")
+                        .HasForeignKey("EventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Domain.Entities.FileOnFileSystemModel", "ProfilePicture")
                         .WithOne()
                         .HasForeignKey("Domain.Entities.User", "ProfilePictureId");
@@ -605,6 +625,8 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Entities.Event", b =>
                 {
                     b.Navigation("EventAttendees");
+
+                    b.Navigation("EventRegistrars");
 
                     b.Navigation("EventReports");
 

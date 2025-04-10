@@ -1,4 +1,4 @@
-﻿using Application.FIlters;
+﻿using Application.Filters;
 
 namespace Application.Interfaces.Services
 {

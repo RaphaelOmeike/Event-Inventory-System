@@ -14,18 +14,19 @@ namespace Infrastructure.Persistence.Configurations
             builder.Property(x => x.Description).IsRequired(false);
             builder.Property(x => x.Begin).IsRequired();
             builder.Property(x => x.End).IsRequired();
-            builder.Property(x => x.MaxAttendeeNo).IsRequired();
+            builder.Property(x => x.MaxAttendeeNo).IsRequired(false);
+            builder.Property(x => x.NoOfAttendees).IsRequired();
             builder.Property(x => x.EventType).IsRequired();//
             builder.Property(x => x.IsEventOver).IsRequired();
             builder.Property(x => x.MinimumWaitingTime).IsRequired();
             builder.Property(x => x.RegistrationCode).IsRequired(false);
             builder.Property(x => x.EventCode).IsRequired(false);
-            builder.Property(x => x.AccessCode).IsRequired(false);
+            builder.Property(x => x.AccessCode).IsRequired();
 
             builder.HasOne(x => x.DefaultEventStatus)
             .WithOne()
             .HasForeignKey<Event>(x => x.DefaultStatusId)
-            .IsRequired();
+            .IsRequired(false);
 
             builder.HasOne(x => x.Picture)
             .WithOne()
@@ -41,6 +42,10 @@ namespace Infrastructure.Persistence.Configurations
             .WithOne(x => x.Event)
             .HasForeignKey(x => x.EventId)
             .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasMany(x => x.EventRegistrars)
+            .WithOne()
+            .IsRequired();
 
             builder.Property(x => x.CreatedAt).IsRequired().ValueGeneratedOnAdd();
             builder.Property(x => x.CreatedBy).IsRequired(false);

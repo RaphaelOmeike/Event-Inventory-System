@@ -11,21 +11,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Users - Copy - Copy\Commands\Create\" />
-    <Folder Include="Features\Users - Copy - Copy\Commands\Delete\" />
-    <Folder Include="Features\Users - Copy - Copy\Commands\Update\" />
-    <Folder Include="Features\Users - Copy - Copy\Queries\List\" />
-    <Folder Include="Features\Events\Commands\Delete\" />
-    <Folder Include="Features\Events\Commands\Update\" />
-    <Folder Include="Features\Events\Queries\List\" />
+    <Folder Include="DTOs\Events\" />
+    <Folder Include="Features\EventStatuses\Queries\Get\" />
     <Folder Include="Features\Users\Commands\Create\" />
     <Folder Include="Features\Users\Commands\Delete\" />
     <Folder Include="Features\Users\Commands\Update\" />
     <Folder Include="Features\Users\Queries\List\" />
+    <Folder Include="Features\Events\Commands\Delete\" />
+    <Folder Include="Features\Events\Commands\Update\" />
+    <Folder Include="Features\Events\Queries\List\" />
+    <Folder Include="Features\EventStatuses\Commands\Delete\" />
+    <Folder Include="Features\EventStatuses\Commands\Update\" />
+    <Folder Include="Features\EventStatuses\Queries\List\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
     <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
   </ItemGroup>
 
 </Project>

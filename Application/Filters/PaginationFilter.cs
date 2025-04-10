@@ -1,4 +1,4 @@
-﻿namespace Application.FIlters
+﻿namespace Application.Filters
 {
     public class PaginationFilter
     {
