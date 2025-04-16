@@ -1,4 +1,6 @@
 ﻿using Application.Interfaces.Repositories;
+using Application.Interfaces.Services;
+using Infrastructure.Authentication;
 using Infrastructure.Implementations.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,7 +19,8 @@ namespace Infrastructure.Extensions
                 .AddScoped<IRoleRepository, RoleRepository>()
                 .AddScoped<IUserRepository, UserRepository>()
                 .AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>))
-                .AddScoped<IUnitOfWork, UnitOfWork>();
+                .AddScoped<IUnitOfWork, UnitOfWork>()
+                .AddSingleton<IJwtProvider, JwtProvider>();
         }
     }
 }

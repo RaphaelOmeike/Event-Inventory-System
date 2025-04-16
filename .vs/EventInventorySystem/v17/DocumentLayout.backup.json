@@ -3,62 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\extensions\\applicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\mapping\\eventmappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\mapping\\eventmappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\events\\queries\\get\\listpubliceventsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\events\\queries\\get\\listpubliceventsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\implementations\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|solutionrelative:api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\events\\commands\\create\\createeventcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\events\\commands\\create\\createeventcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\events\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\events\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.Events.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\events\\queries\\get\\listpubliceventsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\events\\queries\\get\\listpubliceventsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\events\\queries\\get\\geteventbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\events\\queries\\get\\geteventbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\filters\\paginationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\filters\\paginationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\infrastructure\\helpers\\paginationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21B4D755-0AD8-4B41-A23E-3D1F404B3931}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\helpers\\paginationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\users\\queries\\get\\login\\loginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\users\\queries\\get\\login\\loginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\features\\events\\commands\\create\\createeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\features\\events\\commands\\create\\createeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\application\\wrappers\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF0210-2EF8-4E08-8F45-AC567F5FABDC}|Application\\Application.csproj|solutionrelative:application\\wrappers\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.EventStatuses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.FilesOnFileSystem.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|c:\\users\\user\\source\\repos\\eventinventorysystem\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC4C1DE-7F30-4BB3-BC12-369D8ECE7572}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,21 +41,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Application",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Application.csproj",
-              "RelativeToolTip": "Application\\Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-08T18:38:39.52Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -101,177 +61,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Extensions\\ApplicationExtensions.cs",
-              "RelativeDocumentMoniker": "Application\\Extensions\\ApplicationExtensions.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Extensions\\ApplicationExtensions.cs",
-              "RelativeToolTip": "Application\\Extensions\\ApplicationExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetEventByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Queries\\Get\\GetEventByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Events\\Queries\\Get\\GetEventByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Queries\\Get\\GetEventByIdQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Events\\Queries\\Get\\GetEventByIdQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:33:24.308Z",
+              "WhenOpened": "2025-04-16T03:52:48.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventMappingConfig.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Mapping\\EventMappingConfig.cs",
-              "RelativeDocumentMoniker": "Application\\Mapping\\EventMappingConfig.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Mapping\\EventMappingConfig.cs",
-              "RelativeToolTip": "Application\\Mapping\\EventMappingConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:32:24.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:38:13.44Z",
+              "Title": "dbo.Events [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.Events.sql",
+              "ToolTip": "dbo.Events [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-16T03:52:20.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Implementations\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Implementations\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Implementations\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:38:24.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListPublicEventsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQueryHandler.cs",
-              "RelativeToolTip": "Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQueryHandler.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:15:49.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EventDto.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\DTOs\\EventDto.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Events\\DTOs\\EventDto.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\DTOs\\EventDto.cs",
-              "RelativeToolTip": "Application\\Features\\Events\\DTOs\\EventDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:11:50.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ListPublicEventsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQuery.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQuery.cs",
-              "RelativeToolTip": "Application\\Features\\Events\\Queries\\Get\\ListPublicEventsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:11:35.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateEventCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
-              "RelativeToolTip": "Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T15:38:27.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PaginationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Filters\\PaginationFilter.cs",
-              "RelativeDocumentMoniker": "Application\\Filters\\PaginationFilter.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Filters\\PaginationFilter.cs",
-              "RelativeToolTip": "Application\\Filters\\PaginationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:19:07.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaginationHelper.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Helpers\\PaginationHelper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Helpers\\PaginationHelper.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Infrastructure\\Helpers\\PaginationHelper.cs",
-              "RelativeToolTip": "Infrastructure\\Helpers\\PaginationHelper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:59:37.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "CreateEventCommand.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Commands\\Create\\CreateEventCommand.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Events\\Commands\\Create\\CreateEventCommand.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Commands\\Create\\CreateEventCommand.cs",
               "RelativeToolTip": "Application\\Features\\Events\\Commands\\Create\\CreateEventCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:56:03.882Z",
+              "WhenOpened": "2025-04-16T03:37:25.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Wrappers\\Response.cs",
-              "RelativeDocumentMoniker": "Application\\Wrappers\\Response.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Wrappers\\Response.cs",
-              "RelativeToolTip": "Application\\Wrappers\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LoginQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Users\\Queries\\Get\\Login\\LoginQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Users\\Queries\\Get\\Login\\LoginQueryHandler.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Users\\Queries\\Get\\Login\\LoginQueryHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Users\\Queries\\Get\\Login\\LoginQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:58:49.034Z",
+              "WhenOpened": "2025-04-16T03:32:42.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "dbo.EventStatuses.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.EventStatuses.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.EventStatuses.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-31T18:42:35.023Z"
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T03:16:28.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "dbo.FilesOnFileSystem.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.FilesOnFileSystem.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/eventinventorydb/True/SqlTable/dbo.FilesOnFileSystem.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-31T18:41:43.318Z"
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:56:53.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\API\\Controllers\\EventsController.cs*",
+              "RelativeToolTip": "API\\Controllers\\EventsController.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:57:47.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateEventCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\EventInventorySystem\\Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
+              "RelativeToolTip": "Application\\Features\\Events\\Commands\\Create\\CreateEventCommandHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:57:47.535Z",
+              "EditorCaption": ""
             }
           ]
         }

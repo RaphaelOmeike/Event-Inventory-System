@@ -7,9 +7,9 @@ namespace API.Abstractions
 {
     public class ApiController : ControllerBase
     {
-        protected readonly IMediator _mediator;
+        protected readonly IMediator Mediator;
 
-        protected ApiController(IMediator mediator) => _mediator = mediator;
+        protected ApiController(IMediator mediator) => Mediator = mediator;
 
         protected IActionResult HandleFailure(Result result) =>
         result switch

@@ -1,6 +1,10 @@
+using API.OptionsSetup;
+using Application.Interfaces.Services;
 using Application.Options;
 using Infrastructure.Extensions;
 using Infrastructure.Persistence.Contexts;
+using Infrastructure.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Scalar.AspNetCore;
@@ -14,6 +18,14 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<IUriService>(o =>
+{
+    var accessor = o.GetRequiredService<IHttpContextAccessor>();
+    var request = accessor.HttpContext.Request;
+    var uri = string.Concat(request.Scheme, "://", request.Host.ToUriComponent());
+    return new UriService(uri);
+});
 
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices();
@@ -25,29 +37,6 @@ builder.Services.AddOptions<FileStorageOptions>().BindConfiguration(nameof(FileS
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddOpenApi();
-builder.Services.AddOpenApi(options =>
-{
-    options.AddDocumentTransformer((document, context, cancellationToken) =>
-    {
-        document.Info.Version = "9.9";
-        document.Info.Title = "Demo .NET 9 API";
-        document.Info.Description = "This API demonstrates OpenAPI customization in a .NET 9 project.";
-        document.Info.TermsOfService = new Uri("https://codewithmukesh.com/terms");
-        document.Info.Contact = new OpenApiContact
-        {
-            Name = "Mukesh Murugan",
-            Email = "mukesh@codewithmukesh.com",
-            Url = new Uri("https://codewithmukesh.com")
-        };
-        document.Info.License = new OpenApiLicense
-        {
-            Name = "MIT License",
-            Url = new Uri("https://opensource.org/licenses/MIT")
-        };
-        return Task.CompletedTask;
-    });
-});
 
 builder.Services.AddCors(options =>
 {
@@ -57,6 +46,15 @@ builder.Services.AddCors(options =>
                        .AllowAnyHeader());
 });
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer();
+
+builder.Services.ConfigureOptions<JwtOptionsSetup>();
+
+builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
+
+builder.Services.AddOpenApi();
+
 var app = builder.Build();
 
 app.UseCors("AllowAllOrigins");
@@ -64,16 +62,13 @@ app.UseCors("AllowAllOrigins");
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.MapScalarApiReference(options =>
-    {
-        options.WithTheme(ScalarTheme.Kepler)
-        .WithDarkModeToggle(true)
-        .WithClientButton(true);
-
-    });
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.UseAuthorization();
 

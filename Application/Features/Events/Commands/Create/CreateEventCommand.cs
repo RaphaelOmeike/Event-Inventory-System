@@ -2,7 +2,6 @@
 using Domain.Enums;
 using Domain.Shared;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Application.Features.Events.Commands.Create
 {

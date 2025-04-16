@@ -1,5 +1,6 @@
 ﻿using Infrastructure.Specifications;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace Infrastructure.Implementations.Repositories
 {
@@ -19,6 +20,10 @@ namespace Infrastructure.Implementations.Repositories
             if (spec.OrderByDescending != null)
             {
                 query = query.OrderByDescending(spec.OrderByDescending);
+            }
+            if(spec.IsSplitQuery)
+            {
+                query = query.AsSplitQuery();
             }
             query = spec.Includes.Aggregate(query, (current, include) => current.Include(include));
             return query;

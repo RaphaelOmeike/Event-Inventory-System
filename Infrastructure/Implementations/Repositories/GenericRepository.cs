@@ -15,9 +15,9 @@ namespace Infrastructure.Implementations.Repositories
             _context = context;
         }
 
-        public bool Exists(Func<T, bool> predicate)
+        public async Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate)
         {
-            return _context.Set<T>().Any(predicate);
+            return await _context.Set<T>().AnyAsync(predicate);
         }
 
         public async Task<IReadOnlyList<T>> GetAllAsync()
@@ -57,6 +57,11 @@ namespace Infrastructure.Implementations.Repositories
                 .Take(pageSize)
                 .AsNoTracking()
                 .ToListAsync();
+        }
+
+        public async Task<int> GetCountAsync()
+        {
+            return await _context.Set<T>().CountAsync();
         }
     }
 }

@@ -22,5 +22,15 @@ namespace Domain.Errors
                 "EventStatus.NotFound",
                 $"The eventstatus with the identifier {id} was not found.");
         }
+
+        public static class User
+        {
+            public static readonly Error InvalidCredentials = new(
+                "User.InvalidCredentials",
+                $"The user entered invalid credentials.");
+            //public static readonly Func<Guid, Error> NotFound = id => new(
+            //    "Event.NotFound",
+            //    $"The event with the identifier {id} was not found.");
+        }
     }
 }

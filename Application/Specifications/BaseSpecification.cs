@@ -11,7 +11,7 @@ namespace Infrastructure.Specifications
         {
             Criteria = criteria;
         }
-
+        public bool IsSplitQuery { get; protected set; }
         public Expression<Func<T, bool>> Criteria { get; }
 
         public List<Expression<Func<T, object>>> Includes { get; } = new List<Expression<Func<T, object>>>();

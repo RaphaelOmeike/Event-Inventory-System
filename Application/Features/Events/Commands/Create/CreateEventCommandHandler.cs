@@ -21,7 +21,7 @@ namespace Application.Features.Events.Commands.Create
 
         public async Task<Result<Guid>> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
-            bool nameExists = _unitOfWork.EventRepository.Exists(e => e.Name.Equals(request.Name, StringComparison.OrdinalIgnoreCase));
+            bool nameExists = await _unitOfWork.EventRepository.ExistsAsync(e => e.Name.ToLower() == request.Name.ToLower());
             if (nameExists)
             {
                 return Result.Failure<Guid>(DomainErrors.Event.NameAlreadyInUse(request.Name));

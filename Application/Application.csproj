@@ -19,7 +19,6 @@
     <Folder Include="Features\Users\Queries\List\" />
     <Folder Include="Features\Events\Commands\Delete\" />
     <Folder Include="Features\Events\Commands\Update\" />
-    <Folder Include="Features\Events\Queries\List\" />
     <Folder Include="Features\EventStatuses\Commands\Delete\" />
     <Folder Include="Features\EventStatuses\Commands\Update\" />
     <Folder Include="Features\EventStatuses\Queries\List\" />
